@@ -18,3 +18,6 @@ Created a web app using MVC along Individual Account Authentication
 
 11:20
 - Created a github repo
+
+11:23
+- Confirmed that repo created.
