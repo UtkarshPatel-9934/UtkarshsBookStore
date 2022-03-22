@@ -49,3 +49,18 @@ Created a web app using MVC along Individual Account Authentication
 11:20
 - run the app to check the theme working properly.
 - hurray it works :)
+
+
+11:34
+- Added the third parties tools to the project.
+- modified the _Layout.cshtml file in the project.
+- Added a code for the Dropdown menu in _Layout.cshtml
+
+
+11:45
+- run the app to check the drop down menu work properly or not
+- Hurray it works fine ..... :)
+
+
+
+
