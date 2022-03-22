@@ -32,3 +32,20 @@ Created a web app using MVC along Individual Account Authentication
 - Debugg the app and check the code by runninning the particular part in the app.
 - looks like everthing working fine.... :)
 
+
+
+11:00
+- Set up the project witht he Bootstrap
+- download the Yeti theme from the Bootswatch.com (bootstrap.css)
+
+11:06
+- Modified the code in the following pages:
+1. replace the bootstrap.css with the new theme (bootstrap - Yeti).
+2. replace the site.css in the wwwroot/css folder provided in the Blackboard.
+3. modified the code to include the bootstrap.css while replacing the existing css ie. bootstrap.main.css
+4. change the necessary bootstrap text or properties to reflect the theme.
+
+
+11:20
+- run the app to check the theme working properly.
+- hurray it works :)
