@@ -74,3 +74,10 @@ Created a web app using MVC along Individual Account Authentication
 - finally run the app to check every thing works properly.
 
 - Hurray, Completed my assignment 2 (part 1) :)
+
+
+
+
+**************************************************
+********************* All Done *******************
+**************************************************
