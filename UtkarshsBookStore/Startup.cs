@@ -11,7 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UtkarshsBookStore.Data;
+using UtkarshsBookStore.DataAccess.Data;
 
 namespace UtkarshsBookStore
 {
@@ -63,7 +63,7 @@ namespace UtkarshsBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
