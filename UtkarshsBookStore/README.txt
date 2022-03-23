@@ -62,5 +62,15 @@ Created a web app using MVC along Individual Account Authentication
 - Hurray it works fine ..... :)
 
 
+6:40
+- now started working on Add Projects and Modify part
+- firstly created three different or new project called:
+1. UtkarshsBooks.DataAccess
+2. UtkarshsBooks.Models
+3. UtkarshsBooks.Utility
 
+- Install the neessary packages for the project from the Manage Nuget Packages tab
+- Modify the necessary changes for the project.
+- finally run the app to check every thing works properly.
 
+- Hurray, Completed my assignment 2 (part 1) :)
