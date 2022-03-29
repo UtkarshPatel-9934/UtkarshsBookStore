@@ -109,3 +109,16 @@ Created a web app using MVC along Individual Account Authentication
 - added a new branch called StartPart2 in the Github
 - Check the code and tried to run the app
 - everything works fine :)
+
+
+2:30
+- modified the appsettings.json file 
+- add the migrations to the .DataAccess file and called it as : 20220329174150_AddDataMigration
+
+
+3:00
+- update the database created in the project by using Package Manager Console Terminal
+- Got an error :( of missing Packages for the Project, but hopefully solved when I downloaded the Required Packages to the Projet.
+
+- check the app to see every thing runs perfectly
+- Hurray it works :)
