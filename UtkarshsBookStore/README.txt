@@ -81,3 +81,24 @@ Created a web app using MVC along Individual Account Authentication
 **************************************************
 ********************* All Done *******************
 **************************************************
+
+
+
+
+
+
+
+
+
+
+**************************************************
+********************* PART 2 *********************
+**************************************************
+
+
+2022/03/29
+
+- Clone the part 1 from the Github in Visual Studio 2019
+- add the Admi  area in the Areas folder
+- run the app to check everything works fine
+- hurray it works fine :)
