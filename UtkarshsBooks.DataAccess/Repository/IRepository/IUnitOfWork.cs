@@ -7,8 +7,9 @@ using UtkarshsBooks.Models;
 
 namespace UtkarshsBooks.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    interface IUnitOfWork : IDisposable
     {
-       void Update(Category category);
+        ICategoryRepository Category { get; }
+        ISP_Call SP_Call { get; }
     }
 }
