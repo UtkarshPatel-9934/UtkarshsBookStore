@@ -134,3 +134,7 @@ Created a web app using MVC along Individual Account Authentication
 - added the Repository folder and created the Repository.cs
 - and add the IRepository.cs file in the IRepository file
 - check the app and it worked fine :)
+
+
+6:00
+- add the CategoryRepository.cs file and ICategoryRepository.cs file 
