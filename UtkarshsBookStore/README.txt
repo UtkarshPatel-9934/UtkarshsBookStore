@@ -129,3 +129,8 @@ Created a web app using MVC along Individual Account Authentication
 - add migrations to the project
 - update the migrations
 - check the category in the SQL SOE
+
+5:16
+- added the Repository folder and created the Repository.cs
+- and add the IRepository.cs file in the IRepository file
+- check the app and it worked fine :)
