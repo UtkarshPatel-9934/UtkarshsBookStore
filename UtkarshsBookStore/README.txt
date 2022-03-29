@@ -122,3 +122,10 @@ Created a web app using MVC along Individual Account Authentication
 
 - check the app to see every thing runs perfectly
 - Hurray it works :)
+
+
+3:15
+- add a new file called category class file called Category.cs
+- add migrations to the project
+- update the migrations
+- check the category in the SQL SOE
