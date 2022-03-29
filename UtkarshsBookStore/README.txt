@@ -107,3 +107,5 @@ Created a web app using MVC along Individual Account Authentication
 
 1:30
 - added a new branch called StartPart2 in the Github
+- Check the code and tried to run the app
+- everything works fine :)
