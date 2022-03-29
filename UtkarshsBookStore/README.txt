@@ -138,3 +138,12 @@ Created a web app using MVC along Individual Account Authentication
 
 6:00
 - add the CategoryRepository.cs file and ICategoryRepository.cs file 
+
+
+8:00
+- complete the necessary steps or adding the files for the part 2.2 of the Assignment
+- files such as :
+1. ISP_Class.cs interface file in the IRepository folder.
+2. ISP_Class.cs class in the Repository folder.
+3. IUnitOfWork.cs interface file in the IRepository folder.
+4. IUnitOfWork.cs class in the Repository folder.
