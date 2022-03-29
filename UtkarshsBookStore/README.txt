@@ -98,7 +98,12 @@ Created a web app using MVC along Individual Account Authentication
 
 2022/03/29
 
+10:40
 - Clone the part 1 from the Github in Visual Studio 2019
 - add the Admi  area in the Areas folder
 - run the app to check everything works fine
 - hurray it works fine :)
+
+
+1:30
+- added a new branch called StartPart2 in the Github
