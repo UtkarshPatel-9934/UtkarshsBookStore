@@ -147,3 +147,10 @@ Created a web app using MVC along Individual Account Authentication
 2. ISP_Class.cs class in the Repository folder.
 3. IUnitOfWork.cs interface file in the IRepository folder.
 4. IUnitOfWork.cs class in the Repository folder.
+
+
+9:00
+- started workin on the part 2.3 by adding the controller in the Category folder called CategoryController file
+- modified the _Layout.cshtml file to include the category link in the project
+- check the app by runnin it
+- finally it works as expected :)
