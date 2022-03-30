@@ -11,8 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UtkarshsBookStore.DataAccess.Data;
 using UtkarshsBooks.DataAccess.Repository;
+using UtkarshsBookStore.DataAccess.Data;
+using UtkarshsBooks.DataAccess.Repository.IRepository;
 
 namespace UtkarshsBookStore
 {
@@ -34,9 +35,8 @@ namespace UtkarshsBookStore
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<IdentityUser>()
-                //options => options.SignIn.RequireConfirmedAccount = true
-                .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<IUnitOfWork, IUnitOfWork>();
+                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

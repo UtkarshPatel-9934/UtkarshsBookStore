@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UtkarshsBooks.DataAccess.Repository.IRepository;
+﻿using UtkarshsBooks.DataAccess.Repository.IRepository;
 using UtkarshsBookStore.DataAccess.Data;
-
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace UtkarshsBooks.DataAccess.Repository
 {
-    public class IUnitOfWork
+    public class UnitOfWork : IUnitOfWork            //Public method
     {
         private readonly ApplicationDbContext _db;
 
-        public IUnitOfWork(ApplicationDbContext db)
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);
