@@ -154,3 +154,10 @@ Created a web app using MVC along Individual Account Authentication
 - modified the _Layout.cshtml file to include the category link in the project
 - check the app by runnin it
 - finally it works as expected :)
+
+
+
+
+10:00
+- add the command in the package console called : update-database
+- check the project file and run the project
