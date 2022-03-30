@@ -6,7 +6,7 @@ using System.Text;
 
 namespace UtkarshsBooks.DataAccess.Repository
 {
-    public class UnitOfWork : IUnitOfWork            //Public method
+    public class UnitOfWork : IUnitOfWork            
     {
         private readonly ApplicationDbContext _db;
 
