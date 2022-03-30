@@ -161,3 +161,12 @@ Created a web app using MVC along Individual Account Authentication
 10:00
 - add the command in the package console called : update-database
 - check the project file and run the project
+
+
+
+
+
+
+*****************************************************
+********************* COMPLETED *********************
+*****************************************************
