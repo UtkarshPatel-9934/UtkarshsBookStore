@@ -219,3 +219,8 @@ Created a web app using MVC along Individual Account Authentication
 - created a file called program.cs
 - add migration called "20220405193426_addProductToDb"
 - check the table in the SOE
+
+
+4:00
+- add another migrations for the project called 20220405195407_addValidationToProduct
+- add the required statement in the class called product
