@@ -224,3 +224,9 @@ Created a web app using MVC along Individual Account Authentication
 4:00
 - add another migrations for the project called 20220405195407_addValidationToProduct
 - add the required statement in the class called product
+
+
+4:45
+- completed the first slide of the project
+- check that all works good by running the application....
+- hurray it works fine :)
