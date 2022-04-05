@@ -205,3 +205,17 @@ Created a web app using MVC along Individual Account Authentication
 
 - Add the like to the page CoverType to the _Layout.cshtml file
 - Add the Index and upsert for the Cover Type.
+
+
+
+3:40
+- again clone the app again at home in the Visual Studio 2019
+- check the app if it will run or not?
+- it runs as expected.......
+
+
+3:55
+- started workin on the part 3.2 of the project
+- created a file called program.cs
+- add migration called "20220405193426_addProductToDb"
+- check the table in the SOE
