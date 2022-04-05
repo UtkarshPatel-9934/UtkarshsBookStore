@@ -170,3 +170,24 @@ Created a web app using MVC along Individual Account Authentication
 *****************************************************
 ********************* COMPLETED *********************
 *****************************************************
+
+
+
+
+
+
+
+
+
+
+**************************************************
+********************* PART 2 *********************
+**************************************************
+
+2022/04/5
+
+10:00
+- clone the project in the Visual studio 2019
+- tried to update the database and it done sucessfully
+- tried to clean and build the app and chek it wil run or not?
+- hurray, it works fine :) till now...........................
