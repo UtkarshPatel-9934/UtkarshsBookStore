@@ -191,3 +191,17 @@ Created a web app using MVC along Individual Account Authentication
 - tried to update the database and it done sucessfully
 - tried to clean and build the app and chek it wil run or not?
 - hurray, it works fine :) till now...........................
+
+
+
+
+11:30
+- Added CoverType.cs to the Project particular in the Model's Folder
+- Add the cover type Repisitory
+1. ICoverTypeRepository in the IRepository Folder
+2. CoverTypeRepository in the Repository Folder
+3. Add the CoverType to UnitOfWork and IUnitOfWork
+4. Push the migrations for the CoverType
+
+- Add the like to the page CoverType to the _Layout.cshtml file
+- Add the Index and upsert for the Cover Type.
