@@ -252,6 +252,10 @@ Created a web app using MVC along Individual Account Authentication
 
 
 
+2022-04-6
+- add the functionality to edit the category......
+
+
 *****************************************************
 ********************* COMPLETED *********************
 *****************************************************
