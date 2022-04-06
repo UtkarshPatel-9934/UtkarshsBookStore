@@ -47,7 +47,7 @@ namespace UtkarshsBookStore.Areas.Admin.Controllers
                 if (coverType.Id == 0)
                 {
                     _unitOfWork.CoverType.Add(coverType);
-                    // _unitOfWork.Save();
+                     _unitOfWork.Save();
                 }
                 else
                 {

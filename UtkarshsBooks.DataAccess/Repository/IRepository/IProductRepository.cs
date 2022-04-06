@@ -9,7 +9,7 @@ namespace UtkarshsBooks.DataAccess.Repository.IRepository
 {
     public interface IProductRepository : IRepository<Product>
     {
-        public void Update(Product produt);
+         void Update(Product produt);
        // Product Get(int v);
        // object GetAll(string includeProperties);
        // void Remove(Product objFromDb);

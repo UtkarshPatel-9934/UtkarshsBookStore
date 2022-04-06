@@ -26,7 +26,7 @@ namespace UtkarshsBooks.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Name = coverType.Name;
-                // _db.SaveChanges();
+                _db.SaveChanges();
             }
         }
     }
