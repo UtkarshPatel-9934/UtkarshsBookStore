@@ -181,7 +181,7 @@ Created a web app using MVC along Individual Account Authentication
 
 
 **************************************************
-********************* PART 2 *********************
+********************* PART 3 *********************
 **************************************************
 
 2022/04/5
@@ -230,3 +230,28 @@ Created a web app using MVC along Individual Account Authentication
 - completed the first slide of the project
 - check that all works good by running the application....
 - hurray it works fine :)
+
+
+10:30
+- facing huge error due to the spaces bewtween "Category, CoverType"
+- mind got hanged due to that
+
+
+11:00
+- finally solved the error and try to run the app
+- Hurray it's work fine... :)
+
+
+11:30
+- Add the code for the tinycloud for the discription and add the script tag for it.
+- finally completed the project till 3.3
+- and try to run the app
+- YEAH GOT IT...............IT RUNS FIIIIIIIIIINNNNNNNNNNNNEEEEEEEEE!!!!!!!!
+
+
+
+
+
+*****************************************************
+********************* COMPLETED *********************
+*****************************************************
