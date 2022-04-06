@@ -47,7 +47,7 @@ namespace UtkarshsBookStore.Areas.Admin.Controllers
                 if (coverType.Id == 0)
                 {
                     _unitOfWork.CoverType.Add(coverType);
-                     _unitOfWork.Save();
+                    // _unitOfWork.Save();
                 }
                 else
                 {
@@ -85,7 +85,8 @@ namespace UtkarshsBookStore.Areas.Admin.Controllers
             _unitOfWork.CoverType.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
-            #endregion
+           
         }
+        #endregion
     }
 }

@@ -67,7 +67,7 @@ namespace UtkarshsBookStore.Areas.Admin.Controllers
                 if (product.Id == 0)
                 {
                     _unitOfWork.Product.Add(product);
-                    _unitOfWork.Save();
+                   // _unitOfWork.Save();
                 }
                 else
                 {
@@ -105,8 +105,9 @@ namespace UtkarshsBookStore.Areas.Admin.Controllers
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
-            #endregion
+           
 
         }
+        #endregion
     }
 }
