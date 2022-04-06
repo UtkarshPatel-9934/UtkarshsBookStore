@@ -55,6 +55,11 @@ namespace UtkarshsBooks.DataAccess.Repository
                                         // throw new NotImplementedException();
         }
 
+        //public object GetAll(string includeProperties)
+        //{
+          //  throw new NotImplementedException();
+        //}
+
         //public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedEnumerable<T>> orderBy = null, string includeProperties = null)
         //{
         // throw new NotImplementedException();

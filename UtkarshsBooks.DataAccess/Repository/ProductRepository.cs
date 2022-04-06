@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using UtkarshsBooks.DataAccess.Repository.IRepository;
 using UtkarshsBooks.Models;
 using UtkarshsBookStore.DataAccess.Data;
@@ -14,24 +17,41 @@ namespace UtkarshsBooks.DataAccess.Repository
         {
             _db = db;
         }
-        public void Update(Product produt)
+
+      
+
+
+        //public object GetAll(string includeProperties)
+        // {
+        //   throw new NotImplementedException();
+        //}
+
+
+        //public object GetAll(string includeProperties)
+        //{
+        //  throw new NotImplementedException();
+        //}
+
+        public void Update(Product product)
         {
-            var objFromDb = _db.Products.FirstOrDefault(s => s.Id == produt.Id);
+            var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
             if(objFromDb != null)
             {
-                if(produt.ImageUrl != null)
+                if(product.ImageUrl != null)
                 {
-                    objFromDb.ImageUrl = produt.ImageUrl; // add the check for ImageUrl
+                    objFromDb.ImageUrl = product.ImageUrl; // add the check for ImageUrl
                 }
 
-                objFromDb.Title = produt.Title;
-                objFromDb.Description = produt.Description;
-                objFromDb.ISBN = produt.ISBN;
-                objFromDb.Author = produt.Author;
-                objFromDb.ListPrice = produt.ListPrice;
-                objFromDb.CategoryId = produt.CategoryId;
-                objFromDb.CoverTypeId = produt.CoverTypeId; // all properties of product object
+                objFromDb.Title = product.Title;
+                objFromDb.Description = product.Description;
+                objFromDb.ISBN = product.ISBN;
+                objFromDb.Author = product.Author;
+                objFromDb.ListPrice = product.ListPrice;
+                objFromDb.CategoryId = product.CategoryId;
+                objFromDb.CoverTypeId = product.CoverTypeId; // all properties of product object
             }
         }
+
+       
     }
 }
