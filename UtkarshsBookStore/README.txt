@@ -294,3 +294,11 @@ Created a web app using MVC along Individual Account Authentication
 
 - tried to run the app
 - hurray it runs good :) now..............................................
+
+
+
+3:40
+- tried to display the product on the Home page
+- modified the index.cshtml file in the Home folder and HomeController.cs file to include the html part for the Products
+- run the app and check the products will displays or not?
+- Yeah!!! got it Displayed the products on the HomePage of the project.
