@@ -10,7 +10,7 @@ namespace UtkarshsBooks.DataAccess.Repository.IRepository
     public interface ICoverTypeRepository : IRepository<CoverType>
     {
         void Update(CoverType coverType);
-        void Remove(CoverType objFromDb);
+       // void Remove(CoverType objFromDb);
 
     }
 }
