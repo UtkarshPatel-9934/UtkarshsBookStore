@@ -259,3 +259,38 @@ Created a web app using MVC along Individual Account Authentication
 *****************************************************
 ********************* COMPLETED *********************
 *****************************************************
+
+
+
+
+
+**************************************************
+********************* PART 4 *********************
+**************************************************
+
+
+2022-04-19
+
+10:50
+- tried to clone the project again  in the Visual Studio 2019
+- tried to run the app by updating the database
+- sucessfully run the app as of the previous one
+
+
+10:55
+- got the same error as of the previous project ends, particullary in the displaying the products in the products page.
+- It was throwing me to the Visual Studio when I tried to add the product to the Database.
+- I got the same error as of previous one, the reason is System.InvalidOperationException
+- in the file called UnitOfWork.cs, db_SaveChanges()
+
+
+
+12:30
+- tried to solve the problem of throwing out from the application to the Visual Studio code
+- by modifying the code in the Product.cs file
+- I got the reference error in the ForeignKey 
+- replaced code is  public int CoverTypeId { get; set; } // foreign key reference
+        [ForeignKey("CoverTypeId")]
+
+- tried to run the app
+- hurray it runs good :) now..............................................
