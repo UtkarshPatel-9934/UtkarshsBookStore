@@ -302,3 +302,33 @@ Created a web app using MVC along Individual Account Authentication
 - modified the index.cshtml file in the Home folder and HomeController.cs file to include the html part for the Products
 - run the app and check the products will displays or not?
 - Yeah!!! got it Displayed the products on the HomePage of the project.
+
+
+2022-04-20
+
+8:00
+- Add the require migrations to the project
+- faced a lots of error while ading migrations to the Projects in the table
+- Error called : ALTER TABLE in the dbo.CoverType table
+
+
+8:45
+- migration added to the projects called:
+1. 20220420020229_AddProductNewToDb
+2. 20220405195407_addValidationToProduct
+3. 20220405150422_AddCoverType1ToDb
+
+
+
+9:30
+- again got error in the file called : ProductController.cs in the Controller Folder
+- throws me to the visual studion when I click the Create button in the product page
+- error called :  using (var filesStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+
+- solve the error by creating the images/products folder in the wwwroot
+
+
+
+10:30
+- finally check the app to run the project 
+- Hurray it works fine :)
