@@ -1,14 +1,14 @@
 ﻿using UtkarshsBooks.DataAccess.Repository.IRepository;
 using UtkarshsBooks.Models;
+using UtkarshsBooks.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using System.IO;
-using UtkarshsBooks.Models.ViewModels;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace UtkarshsBookStore.Areas.Admin.Controllers
 {
@@ -31,7 +31,7 @@ namespace UtkarshsBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)
         {
-            ProductVM productVM = new ProductVM()
+            ProductVM productVM = new()
             {
                 Product = new Product(),
                 CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem

@@ -11,7 +11,7 @@ namespace UtkarshsBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220405195407_addValidationToProduct")]
-    partial class addValidationToProduct
+    partial class AddValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

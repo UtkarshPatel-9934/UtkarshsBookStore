@@ -11,9 +11,8 @@ namespace UtkarshsBooks.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Display(Name = "Cover Type Name")]
         [Required]
+        [Display(Name = "Cover Type Name")]
         [MaxLength(50)]
 
         public string Name { get; set; }
