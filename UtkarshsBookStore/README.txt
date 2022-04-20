@@ -332,3 +332,17 @@ Created a web app using MVC along Individual Account Authentication
 10:30
 - finally check the app to run the project 
 - Hurray it works fine :)
+
+
+
+11:00
+- finally add the code to the Customer/Views/Home/index.cshtml
+- run the app to add the products to the DB
+- sucessfully run the app and add as well as display the product in the home page.
+
+
+
+
+*****************************************************
+********************* COMPLETED *********************
+*****************************************************
